@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="animade.ataner"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="22" />
+    
+ 	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+	<!-- MAPS vvv  -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<permission android:name="animade.ataner.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+	<uses-permission android:name="animade.ataner.permission.MAPS_RECEIVE"/>
+	<uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <!-- MAPS ^^^  -->
+    
+    <application
+        android:name=".UILApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:name="animade.ataner.Ataner"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="LogowanieDetal" android:label="Portal Mieszkańców"></activity>
+        <activity android:name="Logowanie" android:label="Logowanie"></activity>
+        <activity android:name="Aktualnosci" android:label="Aktualnosci"></activity>
+        <activity android:name="AktualnosciDetal" android:label="Aktualnosci"></activity>
+        <activity android:name="Administracja" android:label="Administracja"></activity>
+        <activity android:name="AdministracjaDetal" android:label="Administracja"></activity>
+        <activity android:name="AdresyWspolnot" android:label="Adresy Wspolnot"></activity>
+        <activity android:name="BiuroSprzedazy" android:label="Biuro Sprzedazy"></activity>
+        <activity android:name="Galeria" android:label="Galeria"></activity>
+        <activity android:name="GaleriaDetal" android:label="Galeria"></activity>
+        <activity android:name="NumeryKont" android:label="Numery Kont"></activity>
+        <activity android:name="DialogActivity" android:label="Komunikat" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="Map" android:label="Ataner"></activity>   
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyB972bQ-QZBHofJOrN85Whjw01TSuvgEEI" />
+    </application>
+
+</manifest>

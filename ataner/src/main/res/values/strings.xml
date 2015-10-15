@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ataner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dummy_button">XXXX</string>
+    
+    <string name="mm_p1">Aktualności</string>
+    <string name="mm_p2">Administracja</string>
+    <string name="mm_p3">Adresy Wspólnot</string>
+    <string name="mm_p4">Biuro Sprzedaży</string>
+    <string name="mm_p5">Galeria</string>
+    <string name="mm_p6">Aktualna oferta</string>
+    <string name="mm_p7">Mapa</string>
+    <string name="mm_p8">Numery kont</string>
+    <string name="mm_p9">Zobacz na stronie</string>
+    <string name="mm_p10">Logowanie</string>
+    <string name="home">Home</string>
+    <string name="descr_image">Image</string>
+</resources>

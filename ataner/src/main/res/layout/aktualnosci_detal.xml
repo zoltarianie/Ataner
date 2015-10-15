@@ -1,0 +1,103 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+		  
+	<LinearLayout
+		android:id="@+id/aktualnosci_detal_viev"
+		android:isScrollContainer="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|center_horizontal"
+		android:background="@drawable/radialback"
+		android:orientation="vertical"
+		tools:ignore="UselessParent">
+		
+		<LinearLayout 
+			android:layout_marginTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#4f91df"
+		    android:orientation="horizontal">
+			<ImageView
+				android:contentDescription="@null"
+				android:src="@drawable/news"
+				android:adjustViewBounds="true"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:focusable="false"/>
+			<TextView
+			    android:tag="TVaw"
+			    android:id="@+id/news_title"
+			    android:text=""
+				android:textSize="16sp"
+				android:textColor="#ffffff"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="5dp"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="3"
+				android:layout_gravity="center|left"
+				android:focusable="false"/>
+		</LinearLayout>
+		
+		<TextView
+			android:id="@+id/news_txt"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center|left"
+		    android:layout_marginLeft="30dp"
+		    android:layout_marginRight="25dp"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="0dp"
+		    android:text=""
+		    android:textColor="#3f7ac0"
+		    android:textSize="16sp" />
+		
+		<LinearLayout
+			android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginBottom="10dp"
+			android:tag="aktualnosci"
+		    android:layout_width="match_parent"
+			android:layout_height="66dp"
+			android:background="@drawable/layout_selector"
+			android:onClick="dialogClicked"
+			android:clickable="true"
+			android:focusable="true"
+			android:orientation="horizontal">
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<ImageView
+					android:layout_marginLeft="3dip"
+					android:layout_marginTop="3dip"
+					android:adjustViewBounds="true"
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:contentDescription="@null"
+					android:src="@drawable/mm_poz9"/>
+				<ImageView
+					android:adjustViewBounds="true"
+					android:layout_width="70dp"
+					android:layout_height="66dp"
+					android:contentDescription="@null"
+					android:src="@drawable/ramka"/>
+		    </RelativeLayout>
+			<TextView
+				android:text="@string/mm_p9"
+				android:textSize="16sp"
+				android:textColor="#ffffff"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center|left"/>
+		</LinearLayout>
+		
+   	</LinearLayout>
+</ScrollView>

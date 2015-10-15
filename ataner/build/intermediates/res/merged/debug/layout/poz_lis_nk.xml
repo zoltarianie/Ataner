@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="top|center_horizontal"
+	android:orientation="vertical"
+	tools:ignore="UselessParent">
+	<TextView
+		android:id="@+id/nkt1"
+	    android:text=""
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center|left"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+		android:layout_marginRight="5dp"
+	    android:textColor="#3f7ac0"
+	    android:textSize="16sp" />
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dip"
+	    android:background="#4f91df"/>
+</LinearLayout><!-- From: file:/F:/PracaJava/Ataner3/ataner/src/main/res/layout/poz_lis_nk.xml -->

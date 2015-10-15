@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="background">#f3f3f3</color>
+    <color name="menu_main">#407bbe</color>
+    <color name="White">#ffffff</color>
+    <color name="black">#000000</color> 
+    <color name="white">#ffffff</color>
+    <color name="menu_pressed">#ff005E24</color>
+    <color name="actionbar_title_color">#224894</color>
+    
+</resources>

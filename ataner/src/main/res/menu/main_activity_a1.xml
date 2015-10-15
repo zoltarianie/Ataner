@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_poz0"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/home"
+        android:title="@string/home"/>
+    
+    <item
+        android:id="@+id/menu_poz1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz1"
+        android:title="@string/mm_p1"/>
+    
+    <item
+        android:id="@+id/menu_poz2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz2"
+        android:title="@string/mm_p2"/>
+    
+    <item
+        android:id="@+id/menu_poz3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz3"
+        android:title="@string/mm_p3"/>
+    
+    <item
+        android:id="@+id/menu_poz4"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz4"
+        android:title="@string/mm_p4"/>
+    
+    <item
+        android:id="@+id/menu_poz5"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz5"
+        android:title="@string/mm_p5"/>
+    
+    <item
+        android:id="@+id/menu_poz8"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz8"
+        android:title="@string/mm_p8"/>
+    
+    <item
+        android:id="@+id/menu_poz10"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+     	android:icon="@drawable/menu_poz10"
+        android:title="@string/mm_p10"/>
+    
+</menu>

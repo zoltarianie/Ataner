@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/mm_poz1"
+	android:background="@drawable/layout_selector"
+	android:orientation="horizontal"
+	android:onClick="dialogClicked"
+	android:clickable="true"
+	android:focusable="true">
+	<ImageView
+	    android:tag="IVaw"
+		android:contentDescription="@null"
+		android:src="@drawable/news_blank"
+		android:adjustViewBounds="true"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:focusable="false"/>
+	<TextView
+	    android:tag="TVaw"
+		android:textSize="16sp"
+		android:textColor="#ffffff"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="5dp"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:layout_gravity="center|left"
+		android:focusable="false"/>
+</LinearLayout><!-- From: file:/F:/PracaJava/Ataner3/ataner/src/main/res/layout/poz_lis_aw.xml -->

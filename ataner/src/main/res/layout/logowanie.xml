@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip">
+
+		<TextView 
+		    android:textColor="#3f7ac0"
+		    android:textSize="16sp"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Login"/>
+			
+		<EditText
+		    android:id="@+id/username"
+		    android:textColor="#3f7ac0"
+		    android:textSize="16sp"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="20dip"
+			android:text=""
+			android:singleLine="true"/>
+
+		<TextView 
+		    android:textColor="#3f7ac0"
+		    android:textSize="16sp"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Hasło"/>
+		
+		<EditText 
+		    android:id="@+id/password"
+		    android:textColor="#3f7ac0"
+		    android:textSize="16sp"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dip"
+			android:singleLine="true"
+			android:text=""
+			android:password="true"/>
+		
+		<Button 
+			android:onClick="efLoguj"
+		    android:id="@+id/btnLogin"
+			android:textSize="16sp"
+			android:textColor="#ffffff"
+			android:background="@drawable/layout_selector"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:text="Login"/>
+	</LinearLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/progress_box"
+	    android:clickable="true"
+	    android:background="#EE999999"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	    
+	    <ProgressBar 
+	        android:id="@+id/progress"
+	        android:layout_gravity="center"
+			android:layout_centerInParent="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	</RelativeLayout>
+</RelativeLayout>
